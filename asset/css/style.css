@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Sansita:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+    font-family: Sansita;
+    font-size: 16px;
+    color: #0f0f0f;
+}
+
+/** navbar **/
+
+.my-navbar {
+    background: rgba(240, 248, 255, 0.4);
+    padding: 15px;
+    padding-right: 30px;
+    border-bottom: 1px solid rgba(113, 115, 119, 0.2);
+}
+
+.my-navbar a {
+    color: #0f0f0f;
+}
+
+.my-navbar ul>li.active > a {
+    background: #2a52be;
+    color: #efefef;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.48);
+}
+
+.my-navbar ul>li>a:hover {
+    background: #456cd6;
+    color: #efefef;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: Pacifico;
+    text-shadow: 0px 2px 1px rgba(16, 32, 75, 0.48);
+}
