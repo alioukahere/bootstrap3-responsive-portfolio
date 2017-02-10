@@ -91,8 +91,8 @@
 /** about section **/
 .about {
     background: #2a52be;
-    height: 450px;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about h1 {
@@ -124,4 +124,34 @@
 
 .social-links a:hover .fa-inverse {
     color: #efefef;
+}
+
+/** skills section **/
+.skills {
+    background: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills h1 {
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+
+.progress {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    text-align: right;
+    background: rgba(255, 3, 62, 0.3);
+}
+
+.progress-bar {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 15px;
+    background: #2a52be;
 }
