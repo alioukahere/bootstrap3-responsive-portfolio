@@ -4,7 +4,7 @@
 
 * {
     font-family: Sansita;
-    font-size: 16px;
+    font-size: 18px;
     color: #0f0f0f;
 }
 
@@ -183,7 +183,7 @@
 }
 
 .item-box .item-link {
-	background-color: none;
+	  background-color: none;
     display: block;
     position: relative;
     margin: 0 auto;
@@ -217,4 +217,36 @@
 
 .item-box .item-link .item-hover .item-hover-content i {
     margin-top: -12px;
+}
+
+/** contact section **/
+.contact {
+    background: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.contact .fa {
+    color: #ff033e;
+}
+
+.contact .field {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    border-bottom: 1px solid #2a52be;
+}
+
+.contact .field:focus {
+    box-shadow: none;
+}
+
+.contact textarea {
+    resize: none;
 }
