@@ -38,6 +38,19 @@
     text-shadow: 0px 2px 1px rgba(16, 32, 75, 0.48);
 }
 
+.my-navbar .navbar-toggle {
+    background: #2a52be;
+}
+
+.my-navbar .navbar-toggle:hover,
+.my-navbar .navbar-toggle:focus {
+  background-color: #2a52be;
+}
+.my-navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
 /** home section **/
 .home {
     background: url('../img/home-bg.jpg');
