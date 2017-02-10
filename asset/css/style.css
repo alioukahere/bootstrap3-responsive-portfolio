@@ -250,3 +250,15 @@
 .contact textarea {
     resize: none;
 }
+
+/** footer **/
+.footer {
+    background: #2a52be;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .content {
+    color: #efefef;
+    font-size: 14px;
+}
