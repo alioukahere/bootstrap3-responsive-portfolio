@@ -71,7 +71,7 @@
 
 .presentation h1 {
     color: #0f0f0f;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .presentation mark {
@@ -84,7 +84,7 @@
 
 .presentation h2 {
     color: #262626;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .btn-blue {
@@ -261,4 +261,8 @@
 .footer .content {
     color: #efefef;
     font-size: 14px;
+}
+
+.footer i {
+    color: #ff033e;
 }
